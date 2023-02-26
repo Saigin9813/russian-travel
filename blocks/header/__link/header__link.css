@@ -8,10 +8,7 @@
   cursor: pointer;
 }
 .header__link:hover{
-  opacity: 0.6;
-}
-.header__link_active{
-  text-decoration: underline;
+  opacity: 0.8;
 }
 @media screen and (max-width:585px) {
   .header__link{

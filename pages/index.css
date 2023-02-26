@@ -1,7 +1,7 @@
 /* Normalize.css */
 @import url(../vendor/normalize.css);
 /* Шрифты*/
-@import url(../fonts/fonts.css);
+@import url(../vendor/fonts.css);
 /* page */
 @import url(../blocks/page/page.css);
 /* header */

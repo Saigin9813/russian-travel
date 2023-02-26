@@ -11,7 +11,7 @@
   }
 }
 @media screen and (max-width:996px){
-  .intro{
+  .places{
     width: calc(100% - 2 * 24px);
   }
 }
