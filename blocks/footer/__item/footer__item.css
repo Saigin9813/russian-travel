@@ -1,0 +1,17 @@
+.footer__item{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-right: 18px;
+}
+.footer__item:last-child{
+  margin-right: 0;
+}
+@media screen and (max-width:685px){
+  .footer__item{
+    margin: 0 0 32px;
+  }
+}
+.footer__item:last-child{
+  margin-bottom: 48px;
+}
