@@ -2,6 +2,8 @@
 @import url(../vendor/normalize.css);
 /* Шрифты*/
 @import url(../vendor/fonts.css);
+/* body */
+@import url(../blocks/body/body.css);
 /* page */
 @import url(../blocks/page/page.css);
 /* header */
