@@ -1,4 +1,10 @@
 .cover__background{
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
   min-height: 740px;
   color: #fff;
   text-decoration: none;
@@ -7,11 +13,7 @@
   overflow: hidden;
   background-position: center;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   position: relative;
-  padding: 20px;
   z-index: 0;
 }
 .cover__background::before {
@@ -27,7 +29,7 @@
   z-index: -1;
   transition: opacity 0.6s ease-in-out;
 }
-.cover__background:hover:before {
+.cover__background:hover::before {
   opacity: 0.8;
 }
 @media  screen and (max-width:1160px) {
@@ -43,5 +45,6 @@
 @media  screen and (max-width:585px) {
   .cover__background{
     min-height: 200px;
+    justify-content: flex-start;
   }
 }

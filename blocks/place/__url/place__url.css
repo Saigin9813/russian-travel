@@ -7,3 +7,9 @@
   color: #aaa;
   text-transform: uppercase;
 }
+@media screen and (max-width:585px){
+  .place__url{
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
